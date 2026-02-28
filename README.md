@@ -14,15 +14,6 @@ Runs entirely on-device — no server, no API keys, no data leaves the phone.
 
 Based on the [react-native-executorch](https://docs.swmansion.com/react-native-executorch) library by Software Mansion, with card-specific parsing and accumulation logic built on top. See `docs/react-native-executorch.md` for the full reference.
 
-## OCR Models
-
-| Model | Type | Description |
-|-------|------|-------------|
-| [CRAFT](https://github.com/clovaai/CRAFT-pytorch) | Detector | Finds text regions in the image (heatmap-based) |
-| [CRNN](https://github.com/JaidedAI/EasyOCR) | Recognizer | Reads text from detected regions |
-
-Both models are from the [EasyOCR](https://github.com/JaidedAI/EasyOCR) project. Browse available models and language packs at the [EasyOCR Model Hub](https://www.jaided.ai/easyocr/modelhub/).
-
 ## Known limitations
 
 - **Low-contrast cards**: Cards without raised/embossed numbers or with low contrast between text and background may not parse reliably
@@ -138,6 +129,15 @@ function MyCustomScanner() {
 | `BANNED_WORDS` | Constant | Words filtered from holder name detection |
 
 ## Swapping OCR models
+
+This package uses two models from the [EasyOCR](https://github.com/JaidedAI/EasyOCR) project:
+
+| Model | Type | Description |
+|-------|------|-------------|
+| [CRAFT](https://github.com/clovaai/CRAFT-pytorch) | Detector | Finds text regions in the image (heatmap-based) |
+| [CRNN](https://github.com/JaidedAI/EasyOCR) | Recognizer | Reads text from detected regions |
+
+Browse available models and language packs at the [EasyOCR Model Hub](https://www.jaided.ai/easyocr/modelhub/).
 
 The `ocrModel` config accepts any model config compatible with `react-native-executorch`'s `useOCR` hook:
 
