@@ -1,0 +1,42 @@
+{
+  "name": "rn-executorch-card-scanner",
+  "version": "0.1.0",
+  "description": "Credit/debit card scanner using ExecuTorch EasyOCR (CRAFT + CRNN) and Vision Camera for React Native",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "react-native",
+    "card-scanner",
+    "ocr",
+    "executorch",
+    "easyocr",
+    "credit-card",
+    "vision-camera",
+    "on-device-ml"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/user1/rn-executorch-card-scanner"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-native": ">=0.81",
+    "react-native-vision-camera": ">=4.0",
+    "react-native-executorch": ">=0.7"
+  },
+  "devDependencies": {
+    "@types/react": ">=18",
+    "@types/react-native": ">=0.81",
+    "typescript": ">=5.0"
+  },
+  "files": [
+    "src/",
+    "docs/",
+    "README.md",
+    "LICENSE"
+  ]
+}
