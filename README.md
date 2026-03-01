@@ -154,6 +154,16 @@ import { RECOGNIZER_LATIN_CRNN } from 'react-native-executorch';
 
 If a better model becomes available, just pass it — the parsing logic is model-agnostic.
 
+## Testing with Android emulator
+
+Sample card images are included in `docs/sample-cards/` for testing on the Android emulator:
+
+1. Open the emulator's **Settings > Camera**
+2. Add a sample card image to the **wall** option
+3. Open the card scanner in your app
+4. In the camera view, hold **Alt** and use **WASD** keys to walk to the room where the card is displayed on the wall
+5. Point the camera at the card to test scanning
+
 ## Publishing to npm
 
 ```bash
