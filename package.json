@@ -1,6 +1,6 @@
 {
   "name": "rn-executorch-card-scanner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Credit/debit card scanner using ExecuTorch EasyOCR (CRAFT + CRNN) and Vision Camera for React Native",
   "main": "src/index.ts",
   "types": "src/index.ts",
