@@ -164,20 +164,6 @@ Sample card images are included in `docs/sample-cards/` for testing on the Andro
 4. In the camera view, hold **Alt** and use **WASD** keys to walk to the room where the card is displayed on the wall
 5. Point the camera at the card to test scanning
 
-## Publishing to npm
-
-```bash
-# 1. Create account at https://www.npmjs.com/signup
-# 2. Login
-npm login
-
-# 3. Publish (first time)
-npm publish --access public
-
-# 4. Update: bump version in package.json, then
-npm publish
-```
-
 ## License
 
 MIT
