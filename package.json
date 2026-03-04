@@ -18,10 +18,11 @@
     "on-device-ml"
   ],
   "license": "MIT",
-  "repository": {
+  "repository": {                                                                                                                                                                            
     "type": "git",
-    "url": "https://github.com/user1/rn-executorch-card-scanner"
-  },
+    "url": "https://github.com/runatyr1/rn-executorch-card-scanner"                                                                                                                          
+  },                                                        
+  "homepage": "https://runatyr.dev/projects/rn-executorch-card-scanner/",
   "peerDependencies": {
     "react": ">=18",
     "react-native": ">=0.81",
